@@ -37,9 +37,8 @@ Successfully gathered LLDP connectivity information!
 ...
 
 Displaying network graph...
-![Example output graph](./Example_outputs/test3.png)
-Finalizing successful execution...
 ```
+![Example output graph](./Example_outputs/test3.png)
 
 Where the image is saved as network_graph.png and displayed on the screen.
 
@@ -60,8 +59,7 @@ Successfully gathered LLDP connectivity information!
 ...
 
 Displaying network graph...
-![Example output graph](./Example_outputs/test1.png)
-Finalizing successful execution...
 ```
+![Example output graph](./Example_outputs/test1.png)
 
 Where the image is saved as network_graph.png and displayed on the screen.
