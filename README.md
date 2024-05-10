@@ -63,3 +63,10 @@ Displaying network graph...
 ![Example output graph](./Example_outputs/test1.png)
 
 Where the image is saved as network_graph.png and displayed on the screen.
+
+## Understanding ouput
+Ovals: devices' host-name are indicated inside the ovals.
+Edges: the connections are represented by edges.
+Edges_labels: located to the right of the connection, they indicate from top to bottom: the interface of the device on top, the subnet, and lastly the interface of the device on the bottom. An illustrative image of the format is shown below.
+
+![Output graph format](./Example_outputs/output_format.png)
