@@ -1,6 +1,10 @@
 # LLDP Graph Visualization
 LLDP Graph Visualization is a Python program for visualizing LLDP connectivity information.
-
+- [Usage](#usage)
+  - [Help](#help)
+  - [Running script with input file](#running-script-with-input-file)
+  - [Running script without input file](#running-script-without-input-file-uses-default-configuration)
+- [Understanding ouput](#understanding-ouput)
 ## Usage
 Use either python (if it points to python 3 version) or python3 depending on installation path for python.
 
@@ -65,8 +69,8 @@ Displaying network graph...
 Where the image is saved as network_graph.png and displayed on the screen.
 
 ## Understanding ouput
-Ovals: devices' host-name are indicated inside the ovals.
-Edges: the connections are represented by edges.
-Edges_labels: located to the right of the connection, they indicate from top to bottom: the interface of the device on top, the subnet, and lastly the interface of the device on the bottom. An illustrative image of the format is shown below.
+<strong>Ovals:</strong> devices' host-name are indicated inside the ovals.<br/>
+<strong>Edges:</strong> the connections are represented by edges.<br/>
+<strong>Edges_labels:</strong> located to the right of the connection, they indicate from top to bottom: the interface of the device on top, the subnet, and lastly the interface of the device on the bottom. An illustrative image of the format is shown below.
 
 ![Output graph format](./Example_outputs/output_format.png)
